@@ -64,7 +64,7 @@ const AboutSection = () => {
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
                 <p className="text-base md:text-lg">
-                Welcome to my portfolio website! I'm Ruchi Khandelwal, currently a student at NIT Srinagar, pursuing a Bachelor's degree in Information Technology. 
+                Welcome to my portfolio website! I&apos;m Ruchi Khandelwal, currently a student at NIT Srinagar, pursuing a Bachelor&apos;s degree in Information Technology. 
                 I am passionate about technology and have honed my skills to become a proficient full-stack web developer. My journey in the world of programming 
                 and design has equipped me with a diverse set of skills, making me a versatile and creative professional.
                 <br/>

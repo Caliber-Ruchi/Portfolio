@@ -37,7 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          I'm a software developer and here is my Portfolio Website.Here you'll learn about my journey as a Software Developer.
+          I&apos;m a software developer and here is my Portfolio Website.Here you&apos;ll learn about my journey as a Software Developer.
           </p>
           <div>
             <Link
