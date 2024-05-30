@@ -7,31 +7,50 @@ import {motion,useInView} from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Portfolio Website",
-    description: "Project 1 description",
+    title: "REAL TIME CHAT APP",
+    description: "React JS, Zustand, Firebase",
+    image: "/images/project/chat_app.png",
+    tag: ["All","Web"],
+    gitUrl:"/",
+    previewUrl:"https://ruchi-chat-app.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "RAZORPAY CLONE",
+    description: "HTML,Tailwind CSS,Javascript",
+    image: "/images/project/RazorpayClone.png",
+    tag: ["All","Web"],
+    gitUrl:"https://github.com/Caliber-Ruchi/RazorPay--Clone",
+    previewUrl:"https://razor-pay-clone-seven-kappa.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "PORTFOLIO WEBSITE",
+    description: "HTML,CSS",
     image: "/images/project/portfolio.png",
     tag: ["All","Web"],
     gitUrl:"https://github.com/Caliber-Ruchi/Portfolio-Website",
     previewUrl:"https://caliber-ruchi.github.io/Portfolio-Website/",
   },
   {
-    id: 2,
-    title: "Restro Website",
-    description: "Project 2 description",
+    id: 4,
+    title: "RESTRO WEBSITE",
+    description: "HTML, CSS, UI",
     image: "/images/project/restaurant.png",
     tag: ["All","Web"],
     gitUrl:"https://github.com/Caliber-Ruchi/Restaurant-Website",
     previewUrl:"https://caliber-ruchi.github.io/Restaurant-Website/",
   },
   {
-    id: 3,
-    title: "Razorpay Clone",
-    description: "Project 3 description",
-    image: "/images/project/RazorpayClone.png",
-    tag: ["All","Web"],
-    gitUrl:"https://github.com/Caliber-Ruchi/RazorPay--Clone",
+    id: 5,
+    title: "TIC TAC TOE",
+    description: "C++",
+    image: "/images/project/tictactoe.jpeg",
+    tag: ["All"],
+    gitUrl:"https://github.com/Caliber-Ruchi/Tic-Tac-Toe",
     previewUrl:"/",
   },
+  
 ];
 
 const ProjectSection = () => {
@@ -52,7 +71,7 @@ const ProjectSection = () => {
     animate: {y:0, opacity: 1},
   };
   return (
-    <section >
+    <section id='projects'>
     <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
       My Projects
     </h2>
@@ -69,7 +88,7 @@ const ProjectSection = () => {
       />
       <ProjectTag
        onClick={handleTagChange}
-       name="Mobile"
+       name="AI & ML"
        isSelected={tag === "Mobile"}
       />
     </div>

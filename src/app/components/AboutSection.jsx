@@ -30,12 +30,12 @@ const tab_data = [
     )
   },
   {
-    title:"Certifications",
-    id: "certifications",
+    title:"Achievements",
+    id: "achievements",
     content: (
       <ul className="list-disc pl-2">
-        <li>Coding Ninjas</li>
-        <li>Coding Ninjas</li>
+        <li>Finalist She Codes</li>
+        <li>Flipkart Grid 5.0</li>
       </ul>
     )
   }
@@ -53,7 +53,7 @@ const AboutSection = () => {
   };
   
   return (
-    <section className="text-white">
+    <section className="text-white" id='about'>
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
             <Image
             src="/images/about-image.png"
@@ -88,11 +88,11 @@ const AboutSection = () => {
                     Education{" "}
                   </TabButton>
                   <TabButton 
-                  selectTab={()=> handleTabChange("certifications")}
-                  active={tab === "certifications"} 
+                  selectTab={()=> handleTabChange("achievements")}
+                  active={tab === "achievements"} 
                   >
                     {" "}
-                    Certifications{" "}
+                    Achievements{" "}
                   </TabButton>
                 </div>
                 <div className="mt-8">{tab_data.find((t) => t.id === tab).content}</div>
