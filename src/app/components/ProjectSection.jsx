@@ -7,6 +7,15 @@ import {motion,useInView} from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "REAL ESTATE PRICE PREDICTION",
+    description: "ML Algo, Flask, Amazon EC2",
+    image: "/images/project/priceprediction.png",
+    tag: ["All","AI & ML"],
+    gitUrl:"/",
+    previewUrl:"http://ec2-16-171-255-43.eu-north-1.compute.amazonaws.com/",
+  },
+  {
+    id: 2,
     title: "REAL TIME CHAT APP",
     description: "React JS, Zustand, Firebase",
     image: "/images/project/chat_app.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl:"https://ruchi-chat-app.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "RAZORPAY CLONE",
     description: "HTML,Tailwind CSS,Javascript",
     image: "/images/project/RazorpayClone.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl:"https://razor-pay-clone-seven-kappa.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "PORTFOLIO WEBSITE",
     description: "HTML,CSS",
     image: "/images/project/portfolio.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl:"https://caliber-ruchi.github.io/Portfolio-Website/",
   },
   {
-    id: 4,
+    id: 5,
     title: "RESTRO WEBSITE",
     description: "HTML, CSS, UI",
     image: "/images/project/restaurant.png",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl:"https://caliber-ruchi.github.io/Restaurant-Website/",
   },
   {
-    id: 5,
+    id: 6,
     title: "TIC TAC TOE",
     description: "C++",
     image: "/images/project/tictactoe.jpeg",
@@ -50,6 +59,16 @@ const projectsData = [
     gitUrl:"https://github.com/Caliber-Ruchi/Tic-Tac-Toe",
     previewUrl:"/",
   },
+  {
+    id: 7,
+    title: "BINARY TREE VISUALIZER",
+    description: "C++(graphics.h)",
+    image: "/images/project/treeVisualizer.png",
+    tag: ["All"],
+    gitUrl:"https://github.com/Caliber-Ruchi/Tree-Visualizer",
+    previewUrl:"/",
+  },
+  
   
 ];
 
